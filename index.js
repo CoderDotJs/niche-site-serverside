@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+require("bcryptjs")
 const ObjectId = require('mongodb').ObjectId;
 const { MongoClient } = require("mongodb");
 require('dotenv').config()
