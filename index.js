@@ -12,7 +12,7 @@ app.use(cors())
 
 
 app.get('/', (req, res) =>{
-  res.send('TravelGo server running')
+  res.send('Apartment fis server running')
 })
 
 // https://boiling-sierra-33157.herokuapp.com
